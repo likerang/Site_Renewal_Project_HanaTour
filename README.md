@@ -14,12 +14,14 @@
 ## 📑 목차
 - [프로젝트 개요](#프로젝트-개요)
 - [기술 스택](#기술-스택)
+- [데이터 흐름](#데이터-흐름)
 - [폴더 구조](#폴더-구조)
-- [주요 기능 & 페이지 구성](#주요-기능--페이지-구성)
-- [역할 분담](#역할-분담)
+- [아키텍쳐](#아키텍쳐)
 - [개발 환경 & 실행 방법](#개발-환경--실행-방법)
 - [배포 환경](#배포-환경)
-- [추가 계획 & 확장 아이디어](#추가-계획--확장-아이디어)
+- [향후 개선 사항](#향후-개선-사항)
+- [제작 후기](#제작-후기)
+- [미리 보기](#미리-보기)
 - [크레딧 & 버전](#크레딧--버전)
 
 ---
@@ -35,10 +37,11 @@ HanaTour 기존 사이트는 반응형 설계와 동적 요소가 부족했어�
 | --- | --- | --- | --- | --- |
 | 조아랑 | 팀장 · BE 리드 | 	Weather API<br>Section Slide<br>Login Page<br>서브페이지 DB 연동<br>백엔드 구축 | [@likerang](https://github.com/likerang) | like_rang@naver.com |
 | 장원석 | FE 리드 · BE | Main Section<br>반응형<br>Event Page<br>서브페이지 DB 연동<br>백엔드 구축 | [@timcho19](https://github.com/timcho19) | timcho4589@gmail.com |
-| 정진욱 | FE | 	Footer<br>Section Slide<br>FAQ Page | [@jiwoo-park](https://github.com/jiwoo-park) | jiwoo@example.com |
+| 정진욱 | FE | 	Footer<br>Section Slide<br>FAQ Page | - | - |
 
 
 ---
+
 ### 1.2 🗓️ 마일스톤
 
 
@@ -184,27 +187,14 @@ sequenceDiagram
 
 ## 5. 아키텍쳐 
 ```mermaid
-%% ===== HanaTour Site Renewal Project Data Flow =====
 flowchart TD
 
-%% 1) 노드 모양 레전드
-subgraph Legend[Legend: Node Shapes]
-  direction LR
-  L1[Process / Rect]:::muted
-  L2(Rounded):::muted
-  L3{Decision}:::muted
-  L4((Circle)):::muted
-  L5[[Service/API]]:::muted
-  L6[/I/O Data/]:::muted
-  L7[(Database)]:::muted
-end
-
-%% 2) 클라이언트 레이어
+%% 1) 클라이언트 레이어
 subgraph Client[Client Layer - Frontend]
   direction TB
   C0([User Access]):::start
-  C1[Main Page<br/>index.php]
-  C2[Login Page<br/>login.php]
+  C1[Main Page - index.php]
+  C2[Login Page - login.php]
   C3[FAQ Page]
   C4[Event Page]
   C5[Admin Page]
@@ -213,19 +203,19 @@ subgraph Client[Client Layer - Frontend]
   C8[Non-Member View]
 end
 
-%% 3) 프레젠테이션 레이어
+%% 2) 프레젠테이션 레이어
 subgraph Presentation[Presentation Layer]
   direction TB
-  P1[Header Component<br/>(장원석)]
-  P2[Main Banner<br/>(장원석)]
-  P3[Product Slide<br/>(정진욱)]
-  P4[YouTube/Shorts Slide<br/>(조아랑)]
-  P5[Weather Section<br/>(조아랑)]
-  P6[Footer<br/>(정진욱)]
-  P7[Search & Filter<br/>(정진욱)]
+  P1[Header Component - 장원석]
+  P2[Main Banner - 장원석]
+  P3[Product Slide - 정진욱]
+  P4[YouTube Shorts Slide - 조아랑]
+  P5[Weather Section - 조아랑]
+  P6[Footer - 정진욱]
+  P7[Search and Filter - 정진욱]
 end
 
-%% 4) 비즈니스 로직 레이어
+%% 3) 비즈니스 로직 레이어
 subgraph BusinessLogic[Business Logic Layer - PHP]
   direction TB
   B1[[Login Service]]:::service
@@ -238,7 +228,7 @@ subgraph BusinessLogic[Business Logic Layer - PHP]
   B8[[Admin Service]]:::service
 end
 
-%% 5) 데이터 레이어
+%% 4) 데이터 레이어
 subgraph DataLayer[Data Layer]
   direction TB
   D1[(MySQL Database)]:::db
@@ -249,20 +239,20 @@ subgraph DataLayer[Data Layer]
   D6[(Admin Table)]:::db
 end
 
-%% 6) 외부 서비스
+%% 5) 외부 서비스
 subgraph External[External Services]
   direction TB
   E1[[Weather API]]:::external
   E2[[YouTube API]]:::external
-  E3[/Image Upload/<br/>uploads/]:::storage
-  E4[/JSON Data/<br/>json/]:::storage
+  E3[Image Upload - uploads]
+  E4[JSON Data - json]
 end
 
-%% 7) 호스팅 환경
+%% 6) 호스팅 환경
 subgraph Hosting[Hosting Environment]
   direction TB
-  H1[XAMPP Local<br/>localhost]:::hosting
-  H2[Dothome Hosting<br/>Production]:::hosting
+  H1[XAMPP Local - localhost]:::hosting
+  H2[Dothome Hosting - Production]:::hosting
 end
 
 %% 메인 플로우
@@ -320,8 +310,8 @@ B7 --> D5
 B8 --> D6
 
 %% 호스팅 연결
-H1 -.-> C1
-H2 -.-> C1
+H1 --> C1
+H2 --> C1
 
 %% 스타일 클래스 정의
 classDef start fill:#e0f2fe,stroke:#0284c7,color:#075985;
@@ -341,6 +331,7 @@ class H1,H2 hosting
 %% 특정 노드 강조
 style C6 fill:#fbbf24,stroke:#f59e0b,color:#92400e
 style D1 fill:#fbbf24,stroke:#f59e0b,color:#92400e
+
 ```
 
 ---
@@ -381,12 +372,13 @@ style D1 fill:#fbbf24,stroke:#f59e0b,color:#92400e
 ## 9. 제작 후기
 이번 프로젝트를 통해 PHP와 데이터베이스 연동을 활용한 동적 웹사이트 구현을 성공적으로 완료하였으며, 팀원들과의 원활한 협업 경험도 쌓을 수 있었습니다.
 전반적으로 기획부터 개발까지 웹 개발의 전 과정을 경험하며 많은 성장을 이룬 의미있는 프로젝트였습니다.
+
 ---
 
 ## 10. 미리보기
 ### 11.1 미리보기
-[![기획서 미리보기](./public/readme/figma-slides-thumb.png)](https://www.figma.com/design/frdj3RVv4YaQB0MXHrSj0V/2%EC%B0%A8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_design?node-id=1-3&t=bPGnOCQ79In0j33j-1 "피그마 슬라이드로 이동")
-[![디자인 미리보기](./public/readme/figma-design-thumb.png)](https://www.figma.com/slides/HtA3UUvRiurlZiIL4hyUQ3/2%EC%B0%A8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8?node-id=53-34&t=oAqugnKRPfT7apW6-1 "피그마 디자인으로 이동")
+[![기획서 미리보기](./image/readme/figma-slides-thumb.png)](https://www.figma.com/design/frdj3RVv4YaQB0MXHrSj0V/2%EC%B0%A8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_design?node-id=1-3&t=bPGnOCQ79In0j33j-1 "피그마 슬라이드로 이동")
+[![디자인 미리보기](./image/readme/figma-design-thumb.png)](https://www.figma.com/slides/HtA3UUvRiurlZiIL4hyUQ3/2%EC%B0%A8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8?node-id=53-34&t=oAqugnKRPfT7apW6-1 "피그마 디자인으로 이동")
 
 
 ## 10.1 크레딧 & 버전
