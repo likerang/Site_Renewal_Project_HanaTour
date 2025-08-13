@@ -135,9 +135,9 @@ gantt
 ## 2.1 📚 개발 컨벤션 가이드
 프로젝트에서 사용하는 HTML, CSS, JavaScript 작성 규칙은 아래 문서를 참고하세요.
 
-- HTML 컨벤션
-- CSS 컨벤션
-- JavaScript 컨벤션
+- [HTML 컨벤션](./docs/guide_html.md)
+- [CSS 컨벤션](./docs/guide_css.md)
+- [JavaScript 컨벤션](./docs/guide_js.md)
 
 ---
 
