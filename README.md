@@ -1,3 +1,9 @@
+## 🔗 빠른 링크
+- 📑 기획서(피그마 슬라이드): https://www.figma.com/design/frdj3RVv4YaQB0MXHrSj0V/2%EC%B0%A8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_design?node-id=1-3&t=bPGnOCQ79In0j33j-1
+- 🎨 디자인 원본(피그마): https://www.figma.com/slides/HtA3UUvRiurlZiIL4hyUQ3/2%EC%B0%A8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8?node-id=53-34&t=oAqugnKRPfT7apW6-1
+
+---
+
 # HanaTour 사이트 리뉴얼 프로젝트
 
 > 기존 하나투어 웹사이트를 사용자 중심으로 디자인하고, **프론트엔드 + 백엔드**가 연동되는 **반응형 웹**으로 구현한 프로젝트입니다.
@@ -26,9 +32,9 @@ HanaTour 기존 사이트는 반응형 설계와 동적 요소가 부족했어�
 
 | 이름 | 역할 | 주요 담당 | GitHub | 연락 |
 | --- | --- | --- | --- | --- |
-| 조아랑 | 팀장 · FE 리드 | 아키텍처/폴더링<br>CI/CD(Vercel·Actions)<br>Supabase 스키마·RLS 정책<br>성능 최적화·코드리뷰 | [@likerang](https://github.com/likerang) | like_rang@naver.com |
-| 장원석 | FE · 제품기능 | 포트폴리오 목록/상세<br>검색·필터·페이지네이션<br>React Query/SWR 상태관리<br>접근성 개선(a11y) | [@garam-dev](https://github.com/garam-dev) | garam@example.com |
-| 정진욱 | FE · UI/디자인 | Figma 디자인 시스템<br>반응형 레이아웃·컴포넌트<br>이미지 업로드/최적화<br>OG/SEO 메타 | [@jiwoo-park](https://github.com/jiwoo-park) | jiwoo@example.com |
+| 조아랑 | 팀장 · FE/BE | 	Weather API<br>Section Slide<br>Login Page<br>서브페이지 DB 연동<br>백엔드 구축 | [@likerang](https://github.com/likerang) | like_rang@naver.com |
+| 장원석 | FE/BE · 제품기능 | Main Section<br>반응형<br>Event Page<br>서브페이지 DB 연동<br>백엔드 구축 | [@garam-dev](https://github.com/garam-dev) | garam@example.com |
+| 정진욱 | FE · UI/디자인 | 	Footer<br>Section Slide<br>FAQ Page | [@jiwoo-park](https://github.com/jiwoo-park) | jiwoo@example.com |
 
 
 ---
