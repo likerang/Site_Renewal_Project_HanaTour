@@ -376,7 +376,6 @@ style D1 fill:#fbbf24,stroke:#f59e0b,color:#92400e
 ---
 
 ## 10. 미리보기
-### 11.1 미리보기
 [![기획서 미리보기](./image/readme/figma-slides-thumb.png)](https://www.figma.com/design/frdj3RVv4YaQB0MXHrSj0V/2%EC%B0%A8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_design?node-id=1-3&t=bPGnOCQ79In0j33j-1 "피그마 슬라이드로 이동")
 [![디자인 미리보기](./image/readme/figma-design-thumb.png)](https://www.figma.com/slides/HtA3UUvRiurlZiIL4hyUQ3/2%EC%B0%A8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8?node-id=53-34&t=oAqugnKRPfT7apW6-1 "피그마 디자인으로 이동")
 
