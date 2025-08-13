@@ -1,3 +1,10 @@
+# Minimal Portfolio (2차 프로젝트)
+- 과정명: 프로젝트기반 프론트엔드 개발자 양성
+- 기간: 2025/03/24 ~ 2025/09/19
+- 2차 프로젝트: 2025-05-12 ~ 2025-07-14
+
+---
+
 ## 🔗 빠른 링크
 - 📑 [기획서(피그마 슬라이드)](https://www.figma.com/design/frdj3RVv4YaQB0MXHrSj0V/2%EC%B0%A8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_design?node-id=1-3&t=bPGnOCQ79In0j33j-1)
 
