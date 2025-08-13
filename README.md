@@ -33,7 +33,7 @@ HanaTour 기존 사이트는 반응형 설계와 동적 요소가 부족했어�
 | 이름 | 역할 | 주요 담당 | GitHub | 연락 |
 | --- | --- | --- | --- | --- |
 | 조아랑 | 팀장 · BE 리드 | 	Weather API<br>Section Slide<br>Login Page<br>서브페이지 DB 연동<br>백엔드 구축 | [@likerang](https://github.com/likerang) | like_rang@naver.com |
-| 장원석 | FE 리드 · BE | Main Section<br>반응형<br>Event Page<br>서브페이지 DB 연동<br>백엔드 구축 | [@garam-dev](https://github.com/garam-dev) | garam@example.com |
+| 장원석 | FE 리드 · BE | Main Section<br>반응형<br>Event Page<br>서브페이지 DB 연동<br>백엔드 구축 | [@timcho19](https://github.com/timcho19) | timcho4589@gmail.com |
 | 정진욱 | FE | 	Footer<br>Section Slide<br>FAQ Page | [@jiwoo-park](https://github.com/jiwoo-park) | jiwoo@example.com |
 
 
