@@ -29,13 +29,49 @@ HanaTour 기존 사이트는 반응형 설계와 동적 요소가 부족했어�
 디자인은 **Figma**로, 개발과 테스트는 **VS Code + XAMPP** 환경에서 이루어졌습니다.
 
 ---
-
+### 1.1 팀원
 | 이름 | 역할 | 주요 담당 | GitHub | 연락 |
 | --- | --- | --- | --- | --- |
 | 조아랑 | 팀장 · BE 리드 | 	Weather API<br>Section Slide<br>Login Page<br>서브페이지 DB 연동<br>백엔드 구축 | [@likerang](https://github.com/likerang) | like_rang@naver.com |
 | 장원석 | FE 리드 · BE | Main Section<br>반응형<br>Event Page<br>서브페이지 DB 연동<br>백엔드 구축 | [@timcho19](https://github.com/timcho19) | timcho4589@gmail.com |
 | 정진욱 | FE | 	Footer<br>Section Slide<br>FAQ Page | [@jiwoo-park](https://github.com/jiwoo-park) | jiwoo@example.com |
 
+
+---
+### 1.2 마일스톤
+```mermaid
+gantt
+    title 하나투어 간트 차트
+    dateFormat  2025-07-14
+    excludes    weekends
+
+
+    section 기획/설계
+    자료조사·방향설정           :a1, 2025-05-12, 3d
+    스케치/스토리보드           :a2, after a1, 3d
+    1차 발표자료                   :a3, after a2, 2d
+    스타일 가이드              :a4, after a3, 3d
+    Figma 디자인(메인)        :a5, after a4, 18d
+    Figma 디자인(서브)        :a6, 2025-06-01, 11d
+    2차 발표자료              :a7, after a6, 1d
+
+
+    section 구현(핵심)
+    컨벤션 구축 / 파트 분배     :b1, 2025-06-17, 1d
+    변수, common 작성          :b2, after b1, 1d
+    파트별 코딩 (메인)          :b3, after b2, 14d
+    파트별 코딩 (서브)          :b4, 2025-06-28, 6d
+    DB 생성 / 데이터 연결       :b5, 2025-07-02, 7d
+
+
+
+    section 품질
+    SEO/OG·성능·접근성         :c1, 2025-07-11, 2d
+    테스트(E2E)·에러관측       :c2, 2025-07-11, 2d
+
+    section 릴리스
+    문서화·시연자료 :d1, 2025-07-09, 2d
+```
 
 ---
 
