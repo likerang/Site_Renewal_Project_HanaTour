@@ -126,11 +126,18 @@ gantt
 ---
 
 
-## 2. 기술 스택
+## 2. 개발 환경
 - **Design**: Figma  
 - **Frontend**: HTML5, CSS3, JavaScript, jQuery  
 - **Backend**: PHP, MySQL  
 - **개발 도구**: VS Code, XAMPP  
+
+## 2.1 📚 개발 컨벤션 가이드
+프로젝트에서 사용하는 HTML, CSS, JavaScript 작성 규칙은 아래 문서를 참고하세요.
+
+- HTML 컨벤션
+- CSS 컨벤션
+- JavaScript 컨벤션
 
 ---
 
