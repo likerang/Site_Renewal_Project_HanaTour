@@ -24,6 +24,15 @@ HanaTour 기존 사이트는 반응형 설계와 동적 요소가 부족했어�
 
 ---
 
+| 이름 | 역할 | 주요 담당 | GitHub | 연락 |
+| --- | --- | --- | --- | --- |
+| 조아랑 | 팀장 · FE 리드 | 아키텍처/폴더링<br>CI/CD(Vercel·Actions)<br>Supabase 스키마·RLS 정책<br>성능 최적화·코드리뷰 | [@likerang](https://github.com/likerang) | like_rang@naver.com |
+| 장원석 | FE · 제품기능 | 포트폴리오 목록/상세<br>검색·필터·페이지네이션<br>React Query/SWR 상태관리<br>접근성 개선(a11y) | [@garam-dev](https://github.com/garam-dev) | garam@example.com |
+| 정진욱 | FE · UI/디자인 | Figma 디자인 시스템<br>반응형 레이아웃·컴포넌트<br>이미지 업로드/최적화<br>OG/SEO 메타 | [@jiwoo-park](https://github.com/jiwoo-park) | jiwoo@example.com |
+
+
+---
+
 ## 기술 스택
 - **Design**: Figma  
 - **Frontend**: HTML5, CSS3, JavaScript, jQuery  
