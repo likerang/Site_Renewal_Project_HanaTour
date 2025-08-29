@@ -2,49 +2,49 @@
     <ul>
       <li>
         <a href="">
-          <img src="image/ic_trip.png" alt="">
+          <img src="image/ic_trip.png" alt="해외여행">
           <span>해외여행</span>
         </a>
       </li>
       <li>
         <a href="">
-          <img src="image/ic_koreatrip.png" alt="">
+          <img src="image/ic_koreatrip.png" alt="국내여행">
           <span>국내여행</span>
         </a>
       </li>
       <li>
         <a href="">
-          <img src="image/ic_airplane.png" alt="">
+          <img src="image/ic_airplane.png" alt="항공권">
           <span>항공권</span>
         </a>
       </li>
       <li>
         <a href="">
-          <img src="image/ic_hotel.png" alt="">
+          <img src="image/ic_hotel.png" alt="호텔">
           <span>호텔</span>
         </a>
       </li>
       <li>
         <a href="">
-          <img src="image/ic_rent.png" alt="">
+          <img src="image/ic_rent.png" alt="렌트">
           <span>렌트</span>
         </a>
       </li>
       <li>
         <a href="">
-          <img src="image/ic_zeus.png" alt="">
+          <img src="image/ic_zeus.png" alt="제우스">
           <span>제우스</span>
         </a>
       </li>
       <li>
         <a href="">
-          <img src="image/ic_ticket.png" alt="">
+          <img src="image/ic_ticket.png" alt="티켓/투어">
           <span>티켓/투어</span>
         </a>
       </li>
       <li>
         <a href="">
-          <img src="image/ic_event.png" alt="">
+          <img src="image/ic_event.png" alt="이벤트/혜택">
           <span>이벤트/혜택</span>
         </a>
       </li>
