@@ -44,7 +44,7 @@
       </li>
       <li>
         <a href="">
-          <img src="image/ic_event.png" alt="이벤트/혜택">
+          <img src="image/ic_event.png" alt="이벤트">
           <span>이벤트/혜택</span>
         </a>
       </li>
